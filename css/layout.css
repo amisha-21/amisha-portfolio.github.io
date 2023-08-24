@@ -261,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .skills, .resume, .experience {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -272,17 +272,17 @@ ul#nav li.current a { color: #F06000; }
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
-border-bottom: 1px solid #E8E8E8;
+
 }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
-	border-bottom: 1px solid #E8E8E8;
+	
 }
 #resume .date {
    font: 15px/24px 'Open Sans', sans-serif;
    margin-top: 6px;
-	border-bottom: 1px solid #E8E8E8;
+	
 }
 
 /*----------------------------------------------*/
