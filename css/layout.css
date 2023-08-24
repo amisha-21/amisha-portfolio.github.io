@@ -261,10 +261,10 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work{
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   
+.education, .experience, .publications, .skills {
+   border-bottom: 1px solid rgba(0,0,0,0.1); /* This adds a faint border to the bottom */
+   padding-bottom: 20px; /* Adjust the padding as required */
+   margin-bottom: 20px; /* Adjust the margin as required */
 }
 #resume .info {
    font: 16px/24px 'Libre Baskerville', serif;
