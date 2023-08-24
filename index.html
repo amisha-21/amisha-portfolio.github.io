@@ -58,7 +58,9 @@
                 <div class="row banner">
                     <div class="banner-text">
                         <h1 class="responsive-headline">Amisha Gangwar</h1>
-                        <h3><p id="typed-description">Placeholder text that will be replaced by TypeIt.js</p>
+                        <h3><p id="typed-description">
+                        <span id="typeit-text">Completed Bachelor's in Technology - Computer Science & Engineering from the University of Allahabad, India and Pursuing MS in Applied Data Science Student at Syracuse University, USA.</span>
+                        </p>
                         </h3>
                         <ul class="social">
                             <li><a href="https://www.linkedin.com/in/amisha-gangwar-486669167/"><i class="fa fa-linkedin"></i></a></li>
@@ -570,15 +572,16 @@
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/demo.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typeit@7.1.1/dist/typeit.min.js"></script>
-    <script>
+<!-- Include TypeIt.js library and initialization script -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.1.1/dist/typeit.min.js"></script>
+<script>
     document.addEventListener('DOMContentLoaded', function() {
-        new TypeIt('#typed-description', {
+        new TypeIt('#typeit-text', {
             strings: ["Completed Bachelor's in Technology - Computer Science & Engineering from the University of Allahabad, India and Pursuing MS in Applied Data Science Student at Syracuse University, USA."],
             speed: 50,
             waitUntilVisible: true,
         }).go();
     });
-    </script>
+</script>
 </body>
 </html>
